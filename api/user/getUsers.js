@@ -4,7 +4,7 @@ console.log('users', users);
 
 module.exports = (req, res) => {
 	
-	res.json({
+	res.send({
 		"data": users
 	})
 }
