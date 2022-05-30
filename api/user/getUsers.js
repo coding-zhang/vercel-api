@@ -1,11 +1,10 @@
-const users = require('../../mock/user-data.js')
+// const users = require('../../mock/user-data.js')
 
-console.log('users', users);
+// console.log('users', users);
 
 module.exports = (req, res) => {
 	
-	res.json({
-		"data": [{
+	res.json([{
 	"_id": "540000198212061166",
 	"username": "冯霞",
 	"age": 28
@@ -25,6 +24,5 @@ module.exports = (req, res) => {
 	"_id": "990000200708037438",
 	"username": "乔涛",
 	"age": 23
-}]
-	})
+}])
 }
